@@ -1,9 +1,16 @@
-﻿using System;
+﻿using Singleton.Models;
+using System;
 
 namespace Singleton
 {
     class Program
     {
+        /*
+            Objetivo: Permitir a criação de uma única instancia de uma classe e 
+            fornecer um modo de recupera-lá.
+
+        */
+
         static void Main(string[] args)
         {
             var config = Configuracao.GetInstance();

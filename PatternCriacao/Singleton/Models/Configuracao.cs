@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Singleton
+namespace Singleton.Models
 {
     public class Configuracao
     {
