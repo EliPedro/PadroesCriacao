@@ -19,6 +19,7 @@ namespace Multiton.Models
         
         public static Tema GetInstance(Temas tema)
         {
+
             return temas[tema];
         } 
     }
